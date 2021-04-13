@@ -7,6 +7,7 @@ import { SignUp } from './pages/SignUp';
 import Footer from './components/Footer';
 import { History } from './pages/History';
 import { RaidRoster } from './pages/RaidRoster';
+import { HamburgerNav } from './components/HamburgerNav';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
     <Router>
       <NavBar/>
+      <HamburgerNav/>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
