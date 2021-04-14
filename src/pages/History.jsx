@@ -75,15 +75,15 @@ const nathriaHeroic = [
     },
     {
       title: "Sludgefist",
-      isKilled: false,
+      isKilled: true,
     },
     {
       title: "Stoneborne Generals",
-      isKilled: false,
+      isKilled: true,
     },
     {
       title: "Sire Denathrius",
-      isKilled: false,
+      isKilled: true,
     },
   ];
 
@@ -94,9 +94,9 @@ export const History = () => {
       }, [])
 
   return (
-    <div className="bg-gradient-to-b from-purple-800 to-purple-50 flex flex-col pt-16 h-screen">
+    <div className="bg-steel-800 flex flex-col pt-16 h-screen">
       <div className="flex justify-center space-x-40">
-        <div className="bg-purple-100 shadow-lg rounded-lg w-max h-auto p-8 mt-16">
+        <div className="bg-steel-900 shadow-lg rounded-lg w-max h-auto p-8 mt-16 text-steel-200">
           <div className="font-bold text-5xl mb-5">Castle Nathria Normal</div>
           <div className="flex-col flex items-center">
           {nathriaNormal.map((item, index) => {
@@ -117,7 +117,7 @@ export const History = () => {
           })}
           </div>
         </div>
-        <div className="bg-purple-100 shadow-lg rounded-lg w-max h-auto p-8 mt-16">
+        <div className="bg-steel-900 shadow-lg rounded-lg w-max h-auto p-8 mt-16 text-steel-200">
           <div className="font-bold text-5xl mb-5">Castle Nathria Heroic</div>
           <div className="flex-col flex items-center">
           {nathriaHeroic.map((item, index) => {
