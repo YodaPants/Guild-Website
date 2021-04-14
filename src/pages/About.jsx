@@ -9,7 +9,7 @@ export const About = () => {
   }, [])
 
   return (
-    <div className="bg-steel-800 flex flex-col pt-16">
+    <div className="bg-steel-800 flex flex-col overflow-hidden">
       <div className="container mx-auto pb-20">
         <motion.div
           animate={{
@@ -24,7 +24,7 @@ export const About = () => {
             x: 500,
           }}
         >
-          <div className="bg-steel-900 pt-10 w-full rounded-lg shadow-lg mt-20">
+          <div className="bg-steel-900 pt-10 w-full rounded-lg shadow-lg mt-5">
             <div className="flex items-center flex-col space-y-5">
               <UnDrawMoon className="h-auto w-2/3 lg:w-1/3" />
               <div className="font-bold text-4xl text-steel-200">About the Guild</div>

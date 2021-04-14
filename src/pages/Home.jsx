@@ -26,7 +26,7 @@ const Home = () => {
 
     <div className="bg-steel-800 flex flex-col">
       <div className="container mx-auto pb-20">
-        <div className="bg-steel-900 pt-10 mt-1 w-full rounded-lg shadow-lg bg-opacity-80">
+        <div className="bg-steel-900 pt-10 mt-5 w-full rounded-lg shadow-lg bg-opacity-80">
           <div className="flex items-center flex-col space-y-5">
             <div className="font-semibold text-4xl text-steel-200">Welcome to DCZ</div>
             <div className="font-medium text-beaver-400 text-lg">

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import { History } from './pages/History';
 import { RaidRoster } from './pages/RaidRoster';
 import { HamburgerNav } from './components/HamburgerNav';
+import ImageSlider from './components/ImageSlider';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/signup" component={SignUp} />
         <Route path="/history" component={History} />
         <Route path="/raidroster" component={RaidRoster} />
+        <Route path="/imagetesting" component={ImageSlider} />
       </Switch>
       <Footer/>
     </Router>

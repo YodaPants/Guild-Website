@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useEffect } from "react";
-import UnDrawDesigner from "../components/UnDrawDesigner";
+import { UnDrawTeam } from "../components/UnDrawTeam";
 
 export const SignUp = () => {
 
@@ -9,7 +9,7 @@ export const SignUp = () => {
   }, [])
 
   return (
-    <div className="bg-steel-800 flex flex-col pt-16 text-steel-200">
+    <div className="bg-steel-800 flex flex-col text-steel-200 overflow-hidden">
       <div className="container mx-auto pb-20">
       <motion.div
           animate={{
@@ -23,9 +23,9 @@ export const SignUp = () => {
           initial={{
             x: 500,
           }}
-          whileHover={{scale:1.3}} // Testing scale for nick, remove later!
+          // whileHover={{scale:1.3}} // Testing scale for nick, remove later!
         >
-        <div className="bg-steel-900 pt-5 w-2/3 rounded-lg shadow-lg mt-20 flex mx-auto">
+        <div className="bg-steel-900 pt-5 w-2/3 rounded-lg shadow-lg mt-5 flex mx-auto">
           <div className="flex w-full justify-center">
             <div className="font-bold text-6xl text-center pb-5 ">
               Join the Guild today!
@@ -49,7 +49,7 @@ export const SignUp = () => {
         >
         <div className="flex justify-center py-5">
         <div className="flex w-max h-auto bg-steel-900 shadow-lg rounded-lg py-5 justify-center">
-          <UnDrawDesigner className="w-2/3 h-auto"/>
+          <UnDrawTeam className="w-2/3 h-auto"/>
         </div>
         </div>
         </motion.div>
